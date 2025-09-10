@@ -138,6 +138,7 @@
       width: 320px;
       font-weight: 700;
       user-select: none;
+      transition: width 0.3s ease;
     }
     #tiktok-links h3 {
       font-size: 1.8rem;
@@ -275,7 +276,7 @@
       outline-offset: 3px;
     }
 
-    /* Responsive */
+    /* Responsive Mobile */
     @media (max-width: 900px) {
       .container {
         padding: 28px 32px;
@@ -309,6 +310,32 @@
       }
       #news .read-more {
         font-size: 0.85rem;
+      }
+    }
+    @media (max-width: 400px) {
+      header {
+        padding: 15px 12px;
+      }
+      .container {
+        padding: 16px 12px;
+      }
+      header h1 {
+        font-size: 1.8rem;
+        letter-spacing: 1px;
+      }
+      h2 {
+        font-size: 1.6rem;
+      }
+      #tiktok-links {
+        padding: 20px 18px;
+        font-size: 0.9rem;
+      }
+      #tiktok-links h3 {
+        font-size: 1.4rem;
+      }
+      #tiktok-links li {
+        font-size: 1rem;
+        padding: 6px 14px;
       }
     }
   </style>
